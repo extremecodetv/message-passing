@@ -1,0 +1,12 @@
+{
+  "name": "message-passing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./example/index.js"
+  },
+  "keywords": ["js", "oop", "message-passing", "functional"],
+  "author": "Artem Dontsov",
+  "license": "MIT"
+}
