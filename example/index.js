@@ -3,18 +3,18 @@ const Account = require('./models/Account')
 const main = () => {
     let name
     let balance
-    let accont = Account(100)
+    let account = Account(100)
 
-    balance = accont('withdraw', 10)
-    balance = accont('withdraw', 20)
-    balance = accont('withdraw', 20)
+    balance = account('withdraw', 10)
+    balance = account('withdraw', 20)
+    balance = account('withdraw', 20)
 
-    accont('setFirstName', 'Extreme')
-    accont('setLastName', 'Code')
+    account('setFirstName', 'Extreme')
+    account('setLastName', 'Code')
     
-    accont('notExistedMethod')
+    account('notExistedMethod')
 
-    name = accont('getName')
+    name = account('getName')
 
     console.log('Name: ')
     console.log(name)
